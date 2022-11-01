@@ -47,14 +47,16 @@
 ![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi01/assets/debug3.png)
 
 Компіляція програми у терміналі:
+
 ![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi01/assets/console.png)
 # 2.1 Засоби ООП
 Java code convention
-JDK:
+
+JDK
 # 2.2 Ієрархія та структура класів
 Програма має лише один клас
 # 2.3 Важливі фрагменти програми:
-package l01;
+<package l01;
 
 
 /**
@@ -126,7 +128,7 @@ public class l01 {
         System.out.println("Одиниці: " + oneCount(decentNumber, phoneNumber,twoLastNumber, fourLastNumber, someName, letter));
 	}
 
-}
+}>
 
 # Варіанти використання
 -
