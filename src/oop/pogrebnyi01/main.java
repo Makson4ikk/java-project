@@ -7,8 +7,7 @@ package l01;
  * Використовуючи двійковий запис цілочисельного значення кожної змінної підрахувати кількість одиниць.
  *
  * @author Pogrebnyi Maksym KN-921V
- */
-
+*/
 
 public class l01 {
 	/** Number in the record book */
@@ -30,10 +29,7 @@ public class l01 {
     /** A character of the English alphabet in upper case, the number of which corresponds to the previously found value */
     static char letter = 'A';
     
-    /**
-     * Counts odd numbers
-     * @return number of odd
-     * @param  a set of numbers from which odd numbers will be counted */
+    /** Counts odd numbers */
 
     static int oddCount(long... value) {
         int oddCount = 0;
@@ -43,10 +39,7 @@ public class l01 {
         return oddCount;
     }
     
-    /**
-     * Counting units
-     * @return the number of units
-     * @param a set of numbers from which units will be counted */
+    /** Counting units */
 
     static int oneCount(long... value) {
         int oneCount = 0;
