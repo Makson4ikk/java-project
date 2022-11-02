@@ -64,7 +64,7 @@ java.util.Random;
 Програма має лише один клас
 
 # 2.3 Важливі фрагменти програми:
-    `
+    
     /**
      * Finding the largest digit in a number
      */
@@ -79,8 +79,7 @@ java.util.Random;
         }
         return biggestNumber;
     }
-    `
-   
+       
 # Варіанти використання
 
 --
