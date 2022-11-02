@@ -40,3 +40,50 @@
 
 Головний клас з точкою входа в програму знаходиться у пакеті: ua.khpi.oop.borusov02.Main
 Код програми та брейкпоінти, що будуть використовуватись відлагодником для перевірки роботи програми:
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/brp%2Bc.png)
+
+Відлагодження програми та показ результатів виконання:
+
+![Atl text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db01.png)
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db01%20v2.png)
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db02.png)
+
+Компіляція програми у терміналі:
+
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/console1.png)
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/console2.png)
+
+# 2.1 Засоби ООП
+
+Java code convention
+JDK:
+java.util.Random;
+
+# 2.2 Ієрархія та структура класів
+
+Програма має лише один клас
+
+# 2.3 Важливі фрагменти програми:
+
+    /**
+     * Finding the largest digit in a number
+     */
+    static int findBiggestNumber(int number) {
+        if(number < 0) 
+        	number *= -1;
+        int biggestNumber = 0;
+        while (number != 0) {
+            if (number % 10 > biggestNumber)
+            	biggestNumber = number % 10;
+            number /= 10;
+        }
+        return biggestNumber;
+    }
+    
+# Варіанти використання
+
+--
+
+# Висновки
+
+На цій лабораторній роботі навчились працювати з java.util.Random,декомпозицією
