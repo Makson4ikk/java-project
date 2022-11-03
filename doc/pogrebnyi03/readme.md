@@ -66,9 +66,9 @@ StringBuilder
 
 Сортировка за алфавітом
 
-  /**
-     * Sorting text
-     */
+  	/**
+     	* Sorting text
+     	*/
      
 	static void sortAplphabet (String textOne, String textTwo) {		
 		String letterOne = Character.toString(textOne.charAt(0));
@@ -94,13 +94,13 @@ StringBuilder
 		}
 		System.out.println("\n");
 
-  }
+  	}
 
 Сортировка за кількістю знаків
 
-  /**
-     * Count letter in sting
-     */
+  	/**
+     	* Count letter in sting
+     	*/
      
 	static void count (String textOne, String textTwo) {
 		
