@@ -49,13 +49,13 @@
 Головний клас з точкою входа в програму знаходиться у пакеті: l02
 Код програми та брейкпоінти, що будуть використовуватись відлагодником для перевірки роботи програми:
 
-[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/code.png)
+[Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/code.png)
 
 Відлагодження програми та показ результатів виконання:
 
-[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/dbug.png)
+[Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/dbug.png)
 
-[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/cout.png)
+[Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/cout.png)
 
 # 2.1 Засоби ООП
 
