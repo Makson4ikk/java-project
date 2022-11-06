@@ -16,7 +16,7 @@
 
 Забороняється використання даних типу String та масивів при знаходженні рішення прикладної задачі
 
-#1.1 Розробник
+# 1.1 Розробник
 
 Погребний Максим Русланович
 
@@ -24,7 +24,7 @@
 
 15 варіант
 
-#1.2 Загальне завдання
+# 1.2 Загальне завдання
 
 Продемонструвати роботу відлагодника
 
@@ -36,7 +36,7 @@
 
 Забезпечити виведення до консолі відповідних значень вхідних даних та результатів обчислень у вигляді таблиці.
 
-#1.3 Задача
+# 1.3 Задача
 
 Перевірити, чи є задане число простим (тобто не ділиться без залишку на жодні числа, крім себе і 1).
 
@@ -46,20 +46,16 @@
 
 Структура программи:
 
-Головний клас з точкою входа в програму знаходиться у пакеті: ua.khpi.oop.borusov02.Main
+Головний клас з точкою входа в програму знаходиться у пакеті: l02
 Код програми та брейкпоінти, що будуть використовуватись відлагодником для перевірки роботи програми:
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/brp%2Bc.png)
+
+[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/code.png)
 
 Відлагодження програми та показ результатів виконання:
 
-![Atl text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db01.png)
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db01%20v2.png)
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/db02.png)
+[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/dbug.png)
 
-Компіляція програми у терміналі:
-
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/console1.png)
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/console2.png)
+[!Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi02/assets/cout.png)
 
 # 2.1 Засоби ООП
 
@@ -72,21 +68,19 @@ java.util.Random;
 Програма має лише один клас
 
 # 2.3 Важливі фрагменти програми:
-    
-    /**
-     * Finding the largest digit in a number
-     */
-    static int findBiggestNumber(int number) {
-        if(number < 0) 
-        	number *= -1;
-        int biggestNumber = 0;
-        while (number != 0) {
-            if (number % 10 > biggestNumber)
-            	biggestNumber = number % 10;
-            number /= 10;
-        }
-        return biggestNumber;
-    }
+
+	 int n = (int) ( Math.random() * 30 );
+	 int i;           
+	 	for(i=2; i<n ;i++) {
+	         if (n%i==0)
+	            System.out.println(" "+ n +" - является составным ");
+	          else
+	            System.out.println(" "+ n +"  - является простым ");
+	        }
+	        
+	    }
+	 
+	}
        
 # Варіанти використання
 
