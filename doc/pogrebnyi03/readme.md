@@ -3,6 +3,7 @@
 # Тема
 
 Розробка власних утилітарних класів.
+
 Набуття навичок вирішення прикладних задач з використанням масивів і рядків.
 
 # 1. Вимоги
@@ -37,7 +38,7 @@
 
 # 1.3 Задача
 
-Ввести декілька рядків. Упорядкувати, а потім вивести рядки за алфавітом (перший пріоритет) та в порядку зростання їх довжини (другий пріоритет).
+Ввести текст. У тексті знайти та вивести всі слова-паліндроми (однаково читається в обох напрямках - зліва направо та справа наліво. Наприклад: "noon", "civic", "radar", "level", "rotor", "refer").
 
 # 2. Опис програми
 
@@ -48,7 +49,7 @@
 Компіляція програми у терміналі:
 
 
-![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi03/assets/%D1%81.png)
+![Alt text](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi03/assets/Screenshot_1.png)
 
 # 2.1 Засоби ООП
 
@@ -64,65 +65,24 @@ StringBuilder
 
 # 2.3 Важливі фрагменти програми:
 
-Сортировка за алфавітом
+	public static void main(String[] args) {
+		    Scanner s = new Scanner(System.in);
 
-  	/**
-     	* Sorting text
-     	*/
-     
-	static void sortAplphabet (String textOne, String textTwo) {		
-		String letterOne = Character.toString(textOne.charAt(0));
-		String letterTwo = Character.toString(textTwo.charAt(0));
+		    System.out.println("Enter the string");
 
-		ArrayList<String> abc = new ArrayList<String>(); 
-		abc.add(letterOne); 
-		abc.add(letterTwo); 
+		    String st1 = s.nextLine();
 
-		Collections.sort(abc); 
-		Iterator<String> itr=abc.iterator();  
-		
-		if (itr.next() == letterOne) {
-			System.out.println("First letter is: "+letterOne);
-			System.out.println(textOne);
-			System.out.println("Second letter is: "+letterTwo);
-			System.out.println(textTwo);
-		} else {
-			System.out.println("Second letter is: "+letterTwo);
-			System.out.println(textTwo);
-			System.out.println("First letter is: "+letterOne);
-			System.out.println(textOne);
+		    String st2 = Palindrome(st1);
+		    if (isPalindrome(st1,st2)==true)
+		    {
+		        System.out.println("palindrome");
+		    }
+		    else {
+		        System.out.println("Not palindrome");
+		    }
 		}
-		System.out.println("\n");
 
-  	}
 
-Сортировка за кількістю знаків
-
-  	/**
-     	* Count letter in sting
-     	*/
-     
-	static void count (String textOne, String textTwo) {
-		
-		int lengthOne = textOne.length();
-		int lengthTwo = textTwo.length();
-	
-		if (lengthOne > lengthTwo) {
-			System.out.println("Count length text One: " +  textOne.length());
-			System.out.println(textOne);
-			System.out.println("Count length text Two: " +  textTwo.length());
-			System.out.println(textTwo);
-
-		} else {
-			System.out.println("Count length text Two: " +  textTwo.length());
-			System.out.println(textTwo);
-			System.out.println("Count length text One: " +  textOne.length());
-			System.out.println(textOne);
-		}
-			
-	}
-  
-  
 # Варіанти використання
 --
 
