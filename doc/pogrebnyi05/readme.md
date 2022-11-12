@@ -139,4 +139,62 @@ Iterator has next, word is - розуміння
 
 Iterator has next, word is - Джонатан Коу
 ```
- 
+# 2.1 Засоби ООП
+
+Java code convention
+
+JDK:
+
+Ітератор
+
+# 2.2 Ієрархія та структура класів
+
+l05
+
+# 2.3 Важливі фрагменти програми:
+```
+System.out.println("toString():" + arrayList1.toString());
+	    
+	    System.out.println("add(String string):" + arrayList1.add("Джонатан Коу"));
+	    
+	    System.out.println("remove(String string):" + arrayList1.remove("початок розуміння"));
+	    
+	    String arraylist2[] = new String[arrayList1.size()];
+	    arraylist2 = arrayList1.toArray(arraylist2);
+	    arrayList1.toArray(arraylist2);
+	    for (String item : arraylist2) {
+	        System.out.println("Item in Object[] toArray() = " + item);
+	    }
+	    
+	    System.out.println("size():" + arrayList1.size());
+	    
+	    System.out.println("contains(String string):" + arrayList1.contains("Буває"));
+	    
+	    List<String> listTemp = new ArrayList<String>();
+        listTemp.add("Найпростіші речі");
+        listTemp.add("можуть змусити");
+        listTemp.add("вмирати від щастя.");
+	    System.out.println("containsAll(Container container):" + arrayList1.contains(listTemp));
+	    
+	    String wordDel = "слова";
+	    String word;
+	    
+	    Iterator<String> iterator = arrayList1.iterator();
+	   
+	    while(iterator.hasNext()) {
+	    	word = iterator.next();
+	    	System.out.println("Iterator has next, word is - " + word);
+	    	if (wordDel.equals(word)) {
+	    		iterator.remove();
+	    		System.out.println("Word '" + word + "' was be deleted");
+	    	}
+	    }
+```
+
+# Варіанти використання
+
+--
+
+# Висновки
+
+На цій лабораторній роботі навчились працювати з ітератором
