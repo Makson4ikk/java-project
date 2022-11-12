@@ -61,44 +61,83 @@ public void remove().
 # 2. Вивід у консоль
 
  `toString():[Буває, таке, мовчання, коли, слова, не, потрібні, і, це, означає, не, кінець, а, початок, розуміння]
+ 
 add(String string):true
+
 remove(String string):false
+
 Item in Object[] toArray() = Буває
+
 Item in Object[] toArray() = таке
+
 Item in Object[] toArray() = мовчання
+
 Item in Object[] toArray() = коли
+
 Item in Object[] toArray() = слова
+
 Item in Object[] toArray() = не
+
 Item in Object[] toArray() = потрібні
+
 Item in Object[] toArray() = і
+
 Item in Object[] toArray() = це
+
 Item in Object[] toArray() = означає
+
 Item in Object[] toArray() = не
+
 Item in Object[] toArray() = кінець
+
 Item in Object[] toArray() = а
+
 Item in Object[] toArray() = початок
+
 Item in Object[] toArray() = розуміння
+
 Item in Object[] toArray() = Джонатан Коу
+
 size():16
+
 contains(String string):true
+
 containsAll(Container container):false
+
 Iterator has next, word is - Буває
+
 Iterator has next, word is - таке
+
 Iterator has next, word is - мовчання
+
 Iterator has next, word is - коли
+
 Iterator has next, word is - слова
+
 Word 'слова' was be deleted
+
 Iterator has next, word is - не
+
 Iterator has next, word is - потрібні
+
 Iterator has next, word is - і
+
 Iterator has next, word is - це
+
 Iterator has next, word is - означає
+
 Iterator has next, word is - не
+
 Iterator has next, word is - кінець
+
 Iterator has next, word is - а
+
 Iterator has next, word is - початок
+
 Iterator has next, word is - розуміння
+
 Iterator has next, word is - Джонатан Коу
+
  `
  
  
