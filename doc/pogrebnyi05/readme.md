@@ -60,7 +60,7 @@ public void remove().
 
 # 2. Вивід у консоль
 
-`
+```
 toString():[Буває, таке, мовчання, коли, слова, не, потрібні, і, це, означає, не, кінець, а, початок, розуміння] 
  
 add(String string):true
@@ -138,5 +138,5 @@ Iterator has next, word is - початок
 Iterator has next, word is - розуміння
 
 Iterator has next, word is - Джонатан Коу
-
+```
  
