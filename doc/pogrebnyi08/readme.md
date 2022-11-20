@@ -40,11 +40,11 @@
 Готово
 ```
 
-![Image alt]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/file.png
+![Image alt](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/file.png)
 
-![Image alt]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code1.png
+![Image alt](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code1.png)
 
-![Image alt]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code2.png
+![Image alt](https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code2.png)
 
 # 2.1 Засоби ООП 
 Java code convention 
@@ -61,3 +61,36 @@ JDK
 
 3. vacanices
 
+# 2.3 Важливі фрагменти програми:
+
+Введення пасу сейвінгу xml
+
+```
+    scanner = new Scanner(System.in);
+    System.out.print("Вхідний шлях: ");
+		String path = scanner.nextLine();
+
+```
+
+Генерація XML
+
+```
+  try {
+			XMLEncoder x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(path + ".xml")));
+			x.writeObject(full);
+			x.close();
+			System.out.println("Готово");
+        } catch (FileNotFoundException e) {
+		
+			e.printStackTrace();
+			System.out.println("Помилка");
+		}
+```
+
+# Варіанти використання
+
+--
+
+# Висновки
+
+На цій лабораторній роботі навчились працювати з ООП
