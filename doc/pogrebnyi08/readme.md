@@ -68,7 +68,7 @@ JDK
 ```
     scanner = new Scanner(System.in);
     System.out.print("Вхідний шлях: ");
-		String path = scanner.nextLine();
+    String path = scanner.nextLine();
 
 ```
 
@@ -76,15 +76,14 @@ JDK
 
 ```
   try {
-			XMLEncoder x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(path + ".xml")));
-			x.writeObject(full);
-			x.close();
-			System.out.println("Готово");
-        } catch (FileNotFoundException e) {
-		
-			e.printStackTrace();
-			System.out.println("Помилка");
-		}
+	XMLEncoder x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(path + ".xml")));
+	x.writeObject(full);
+	x.close();
+	System.out.println("Готово");
+   } catch (FileNotFoundException e) {
+	e.printStackTrace();
+	System.out.println("Помилка");
+	}
 ```
 
 # Варіанти використання
