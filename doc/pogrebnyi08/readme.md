@@ -35,3 +35,28 @@
 див. у 1
 
 # 2. Вивід у консоль
+```
+Вхідний шлях: D:\Учёба\vacancies
+Готово
+```
+
+![Alt text]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/file.png
+
+![Alt text]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code1.png
+
+![Alt text]https://github.com/Makson4ikk/java-project/blob/main/doc/pogrebnyi08/assets/code2.png
+
+# 2.1 Засоби ООП 
+Java code convention 
+
+JDK
+
+ООП  
+
+# 2.2 Ієрархія та структура класів
+1. l08
+
+2. fullVacanises
+
+3. vacanices
+
