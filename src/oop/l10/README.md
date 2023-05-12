@@ -91,7 +91,7 @@ public class CarInfoContainer implements Serializable {
         });
     }
 ```
-# 3 ВАРІАНТИ ВИКОРИСТАННЯ
+# ВАРІАНТИ ВИКОРИСТАННЯ
 -
 
 # Висновки
